@@ -11,7 +11,7 @@ int main() {
         cout<<a*b;
 
     else
-        cout<<a/b;
+        cout<<b/a;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
