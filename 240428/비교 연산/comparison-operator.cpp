@@ -7,47 +7,12 @@ int main() {
 
     cin>>a>>b;
 
-    if (a>=b)
-        cout<<"1";
-    else
-        cout<<"0";
-    
-    cout<<endl;
-
-    if (a>b)
-        cout<<"1";
-    else
-        cout<<"0";
-    
-    cout<<endl;
-
-    if (b>=a)
-        cout<<"1";
-    else
-        cout<<"0";
-    
-    cout<<endl;
-
-    if (b>a)
-        cout<<"1";
-    else
-        cout<<"0";
-
-    cout<<endl;
-
-    if (a==b)
-        cout<<"1";
-    else
-        cout<<"0";
-
-    cout<<endl;
-
-    if (a!=b)
-        cout<<"1";
-    else
-        cout<<"0";
-
-    cout<<endl;
+    cout<<(a>=b)<<endl;
+    cout<<(a>b)<<endl;
+    cout<<(b>=a)<<endl;
+    cout<<(b>a)<<endl;
+    cout<<(a==b)<<endl;
+    cout<<(a!=b)<<endl;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
