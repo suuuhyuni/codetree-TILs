@@ -2,6 +2,7 @@
 
 using namespace std;
 
+/*
 int main() {
     int a, b, n;
 
@@ -21,5 +22,20 @@ int main() {
         }
     }
     // 여기에 코드를 작성해주세요.
+    return 0;
+}
+*/
+
+int main(){
+    int a, b, n;
+
+    cin>>b>>a;
+
+    n=b;
+
+    while (n>=a){
+        cout<<n<<" ";
+        n-=2;
+    }
     return 0;
 }
