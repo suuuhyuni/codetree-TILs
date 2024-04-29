@@ -16,7 +16,7 @@ int main() {
         a = a * 10;
         cout<<a/b;
 
-        a = a %
+        a = a % b;
     }
     
     
