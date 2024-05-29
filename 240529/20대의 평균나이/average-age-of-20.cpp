@@ -13,15 +13,13 @@ int main() {
     while (true){
         cin>>age;
 
-        if (age>=30)
+        if (age>=30||age<20)
             break;
 
         sum+=age;
 
         cnt++;
     }
-    if (cnt==0)
-        cout<<"Error"<<endl;
 
     cout<<(double)sum/cnt;
     // 여기에 코드를 작성해주세요.
