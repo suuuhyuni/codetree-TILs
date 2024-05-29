@@ -21,8 +21,8 @@ int main() {
         cnt++;
     }
     if (cnt==0)
-        exit(1);
-        
+        cout<<"Error"<<endl;
+
     cout<<(double)sum/cnt;
     // 여기에 코드를 작성해주세요.
     return 0;
