@@ -9,7 +9,7 @@ int main() {
     bool x=true;
 
     for (int i=a; i<=b; i++){
-        if (c%i == 0)
+        if (i%c == 0)
             x=false;
     }
 
