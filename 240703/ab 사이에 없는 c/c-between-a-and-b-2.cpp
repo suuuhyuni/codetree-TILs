@@ -9,11 +9,11 @@ int main() {
     bool x=true;
 
     for (int i=a; i<=b; i++){
-        if (c%i != 0)
+        if (c%i == 0)
             x=false;
     }
 
-    if (x==false)
+    if (x==true)
         cout<<"YES";
     else
         cout<<"NO";
