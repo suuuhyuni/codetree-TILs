@@ -6,14 +6,14 @@ int main() {
 
     cin>>a>>b>>c;
 
-    bool x=false;
+    bool x=true;
 
     for (int i=a; i<=b; i++){
-        if (c%i == 0)
-            x=true;
+        if (c%i != 0)
+            x=false;
     }
 
-    if (x==true)
+    if (x==false)
         cout<<"YES";
     else
         cout<<"NO";
